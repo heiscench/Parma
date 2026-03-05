@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARMA - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-ring"></div>
+        <div class="preloader-text">INITIALIZING PARMA PROTOCOL...</div>
+        <div class="preloader-text">SCANNING BLOCKCHAIN MEMORY...</div>
+        <div class="preloader-text">AWAKENING DIGITAL ENTITIES...</div>
+        <div class="preloader-nft"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">PARMA</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="mint.html">Mint</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>PARMA</h1>
+            <p>Born from silence. Powered by the chain.</p>
+            <div class="buttons">
+                <a href="mint.html" class="btn">MINT PARMA</a>
+                <a href="collection.html" class="btn">VIEW COLLECTION</a>
+            </div>
+            <div id="countdown">Mint Countdown: TBD</div>
+        </div>
+        <canvas id="hero-canvas"></canvas> <!-- For rings and particles -->
+        <div id="nft-3d"></div> <!-- For 3D NFT -->
+    </section>
+
+    <!-- NFT Showcase -->
+    <section id="nft-showcase">
+        <h2>NFT Preview</h2>
+        <div class="nft-cards">
+            <div class="nft-card">
+                <img src="placeholder-nft1.jpg" alt="NFT 1">
+                <div class="traits">Neon Core, Quantum Eyes</div>
+            </div>
+            <div class="nft-card">
+                <img src="placeholder-nft2.jpg" alt="NFT 2">
+                <div class="traits">Plasma Crown, Void Mask</div>
+            </div>
+            <!-- Add more as needed -->
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section id="about-preview">
+        <h2>About Parma</h2>
+        <p>Parma units are fragments of lost blockchain intelligence. 10,000 digital entities scattered across the chain, waiting to reconnect. Each holder becomes part of the network.</p>
+    </section>
+
+    <!-- Roadmap Preview -->
+    <section id="roadmap-preview">
+        <h2>Roadmap Preview</h2>
+        <div class="roadmap-timeline">
+            <div class="phase">Phase 1: Awakening</div>
+            <div class="phase">Phase 2: Mint</div>
+            <!-- Shortened for preview -->
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community">
+        <h2>Community</h2>
+        <p>Join the Parma network on Discord for alpha drops and more.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PARMA. All rights reserved.</p>
+    </footer>
+
+    <canvas id="background-canvas"></canvas> <!-- For matrix background and particles -->
+
+    <script src="script.js"></script>
+</body>
+                  </html>
